@@ -1,6 +1,7 @@
-function takeANumber(katsDeliLine, newName){
-  katsDeliLine.push(newName)
-  return `Welcome, ${newName}. You are number ${katsDeliLine.length} in line.`
+var deliCount = 0;
+function takeANumber(katsDeliLine){
+  katsDeliLine.push(++deliCount)
+  return `Welcome, You are number ${katsDeliLine.length} in line.`
 }
 
 function nowServing(katsDeliLine){
