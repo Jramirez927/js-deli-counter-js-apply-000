@@ -1,7 +1,7 @@
 var deliCount = 0;
 function takeANumber(katsDeliLine){
-  katsDeliLine.push(++deliCount)
-  return `Welcome, You are number ${katsDeliLine.length} in line.`
+  katsDeliLine.push(deliCount++)
+  return `Welcome, You are number ${deliCount} in line.`
 }
 
 function nowServing(katsDeliLine){
